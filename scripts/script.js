@@ -1,2 +1,1 @@
-const divv = document.getElementById("DIVV");
-divv.innerText = "Helloooo";
+document.getElementById("header").textContent.textContent = "Hello world";
