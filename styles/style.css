@@ -80,8 +80,9 @@ body{
   background: #5372F0;
 }
 
-.credit a {
+.credit span {
   color: aquamarine;
+  cursor: pointer;
   text-decoration: none;
 }
 
