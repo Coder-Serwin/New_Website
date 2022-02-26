@@ -101,7 +101,16 @@ body{
 }
 
 @media only screen and (max-width:700px) {
+  .wrapper header {
+    font-size: 24px;
+  }
+
+  .wrapper {
+    width: 20pc;
+  }
+
   .credit {
-    bottom: -5px;
+    position: absolute;
+    font-size: 15px;
   }
 }
