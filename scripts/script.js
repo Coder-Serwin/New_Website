@@ -5,8 +5,10 @@ synth = speechSynthesis;
 
 
 speechBtn.addEventListener("click", ()=>{
+    if (!synth.speaking) {
     let utterance = new SpeechSynthesisUtterance(`${inputText.value}`);
     synth.speak(utterance);
+}
 });
 
 copyBtn.addEventListener("click", ()=>{
