@@ -68,10 +68,7 @@ body{
 .features ul li:first-child{
   margin-left: 0;
 }
-ul li:is(:hover, .active){
-  color: #fff;
-  background: #5372F0;
-}
+
 .buttons button{
   border: none;
   color: #fff;
@@ -81,4 +78,15 @@ ul li:is(:hover, .active){
   padding: 13px 22px;
   border-radius: 30px;
   background: #5372F0;
+}
+
+.credit a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.credit {
+  font-size: large;
+  position: absolute;
+  bottom: 8pc;
 }
