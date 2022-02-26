@@ -12,6 +12,10 @@ speechBtn.addEventListener("click", ()=>{
 }
 });
 
+inputText.addEventListener("click", ()=> {
+    console.log(credit);
+})
+
 credit.addEventListener("click", ()=>{
     let url = "https://www.youtube.com/channel/UCKE1e1IcGQnpDDzA-cddraw";
     window.open(url,"_blank");

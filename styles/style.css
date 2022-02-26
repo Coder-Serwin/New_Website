@@ -88,13 +88,13 @@ body{
   background: #5372F0;
 }
 
-.credit span {
+#credit span {
   color: aquamarine;
   cursor: pointer;
   text-decoration: none;
 }
 
-.credit {
+#credit {
   font-size: large;
   position: absolute;
   bottom: 8pc;
@@ -109,7 +109,7 @@ body{
     width: 20pc;
   }
 
-  .credit {
+  #credit {
     position: absolute;
     font-size: 15px;
   }
