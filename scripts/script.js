@@ -13,7 +13,8 @@ speechBtn.addEventListener("click", ()=>{
 });
 
 credit.addEventListener("click", ()=>{
-    location.replace("www.youtube.com");
+    let url = "https://www.youtube.com/channel/UCKE1e1IcGQnpDDzA-cddraw";
+    window.open(url,"_blank");
 });
 
 copyBtn.addEventListener("click", ()=>{
