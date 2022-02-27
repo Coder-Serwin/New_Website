@@ -9,7 +9,8 @@ let isSpeaking = true;
 
 function Voices () {
     for (let voice of synth.getVoices()) {
-        let option1 = `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`;
+        let selected = voice.name == "Microsoft Mark - English (United States) (en-US)" ? "selected" : "";
+        let option1 = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
         voiceList.insertAdjacentHTML("beforeend",option1);
     }
 }
@@ -21,7 +22,7 @@ speechBtn.addEventListener("click", ()=>{
         if (!synth.speaking) {
             let utterance = new SpeechSynthesisUtterance(`${inputText.value}`);
             for(let voices of synth.getVoices()) {
-                if (voices.name == voiceList.value) {
+                if (voices.name === voiceList.value) {
                     utterance.voice = voices;
                     synth.speak(utterance);
                 };

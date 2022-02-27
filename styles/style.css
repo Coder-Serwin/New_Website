@@ -11,10 +11,10 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(to top right,#5372F0,#5372F9);
+  background: linear-gradient(to top right,#5372F0,#b3bde9);
 }
 .wrapper{
-  width: 480px;
+  width: 420px;
   background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
@@ -34,10 +34,11 @@ body{
 }
 
 .quote-area .quote{
+  width: 25pc;
   font-size: 22px;
   text-align: center;
   word-break: break-all;
-  border: 1px solid #5372F0;
+  border: 1px solid #5064b4;
 }
 
 .wrapper .buttons{
@@ -98,11 +99,11 @@ body{
 #credit {
   font-size: large;
   position: absolute;
-  top: 35pc;
+  top: 34pc;
 }
 
 .row label {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .row .outer select{
@@ -131,14 +132,27 @@ body{
     width: 15pc;
   }
 
+  .wrapper .buttons button {
+    padding: 10px 20px;
+  }
+
+  .row label{
+    height: auto;
+    font-size: 20px;
+  }
+
   .wrapper {
     z-index: 1;
     width: 20pc;
   }
 
+
   #credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    height: 1pc;
-    font-size: 15px;
+    top: 32pc;
+    font-size: 16px;
   }
 }
