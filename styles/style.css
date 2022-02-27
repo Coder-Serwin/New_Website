@@ -11,10 +11,10 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(#5372F0,#5372);
+  background: linear-gradient(to top right,#5372F0,#5372F9);
 }
 .wrapper{
-  width: 605px;
+  width: 480px;
   background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
@@ -37,6 +37,7 @@ body{
   font-size: 22px;
   text-align: center;
   word-break: break-all;
+  border: 1px solid #5372F0;
 }
 
 .wrapper .buttons{
@@ -97,7 +98,28 @@ body{
 #credit {
   font-size: large;
   position: absolute;
-  bottom: 8pc;
+  top: 35pc;
+}
+
+.row label {
+  font-size: 15px;
+}
+
+.row .outer select{
+  border: none;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+}
+
+.row .outer {
+  height: 47px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #5372F0;
 }
 
 @media only screen and (max-width:700px) {
