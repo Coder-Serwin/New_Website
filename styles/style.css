@@ -11,7 +11,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #5372F0;
+  background: linear-gradient(#5372F0,#5372);
 }
 .wrapper{
   width: 605px;
@@ -105,12 +105,18 @@ body{
     font-size: 24px;
   }
 
+  .quote-area .quote {
+    width: 15pc;
+  }
+
   .wrapper {
+    z-index: 1;
     width: 20pc;
   }
 
   #credit {
     position: absolute;
+    height: 1pc;
     font-size: 15px;
   }
 }
