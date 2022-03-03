@@ -6,6 +6,7 @@ credit = document.querySelector(".link"),
 synth = speechSynthesis;
 let isSpeaking = true;
 
+Voices();
 
 function Voices () {
     for (let voice of synth.getVoices()) {
