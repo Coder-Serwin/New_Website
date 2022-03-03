@@ -10,8 +10,7 @@ Voices();
 
 function Voices () {
     for (let voice of synth.getVoices()) {
-        let selected = voice.name == "Microsoft Mark - English (United States) (en-US)" ? "selected" : "";
-        let option1 = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
+        let option1 = `<option value="${voice.name}">${voice.name} (${voice.lang})</option>`;
         voiceList.insertAdjacentHTML("beforeend",option1);
     }
 }
