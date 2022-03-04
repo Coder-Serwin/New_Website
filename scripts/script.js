@@ -11,7 +11,7 @@ speechBtn.addEventListener("click", ()=>{
             let utterance = new SpeechSynthesisUtterance(`${inputText.value}`);
             synth.speak(utterance);
     };
-        if (inputText.value.length > 80 ) {
+        if (inputText.value.length > 210000000 ) {
             if (isSpeaking) {
                 synth.resume();
                 isSpeaking = false;
