@@ -15,6 +15,7 @@ body{
 }
 .wrapper{
   width: 420px;
+  height: 100%;
   background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
@@ -90,16 +91,17 @@ body{
   background: #5372F0;
 }
 
-#credit span {
+.credit span {
   color: aquamarine;
   cursor: pointer;
   text-decoration: none;
 }
 
-#credit {
+.wrapper .credit {
   font-size: large;
   position: absolute;
-  top: 34pc;
+  top: 44pc;
+  left: 30pc;
 }
 
 @media only screen and (max-width:700px) {
@@ -121,12 +123,13 @@ body{
   }
 
 
-  #credit {
+  .wrapper .credit {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 32pc;
+    top: 42pc;
+    left: 12pc;
     font-size: 16px;
   }
 }
