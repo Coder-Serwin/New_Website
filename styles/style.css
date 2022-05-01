@@ -92,16 +92,17 @@ body{
 }
 
 .credit span {
-  color: aquamarine;
+  color: #00ddec;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .wrapper .credit {
-  font-size: large;
+  color: #000000;
   position: absolute;
-  top: 44pc;
-  left: 30pc;
+  font-size: 20px;
+  transform: translate(-50%,-50%);
+  top: 75%;
+  left: 50%;
 }
 
 @media only screen and (max-width:700px) {
@@ -129,7 +130,7 @@ body{
     justify-content: center;
     position: absolute;
     top: 42pc;
-    left: 12pc;
+    
     font-size: 16px;
   }
 }
